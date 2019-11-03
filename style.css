@@ -1,0 +1,81 @@
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+    background-color: whitesmoke;
+    width: 50%;
+    margin: 5% auto;
+}
+
+header, main {
+    margin-bottom: 50px;
+}
+
+p {
+    font-size: 1em;
+    line-height: 2em;
+    word-spacing: 1pt;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(52, 151, 250);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 5px dashed #efefef;
+}
+
+h1 {
+    font-size: 2.8em;
+    color: rgb(52, 151, 250);
+    letter-spacing: -2.6pt;
+    margin: 0;
+    padding: 0;
+}
+
+header h3 {
+    font-size: 1.2em;
+    letter-spacing: 5pt;
+    padding: 0;
+    margin: 0;
+}
+
+
+input {
+    font-size: 0.9em;
+    padding: 10px;
+    margin-right: 5px;
+    font-family: inherit;
+    border: 2px solid #efefef;
+    border-radius: 5%;
+    font-family: inherit;
+    color: #757575;
+}
+
+input[type='submit'] {
+    background-color: rgb(52, 151, 250);
+    color: white;
+    border: 0;
+    border-radius: 5%;
+    width: 80px;
+}
+
+input[type='submit']:hover {
+    width: 90px;
+}
+
+
+footer h3 {
+    font-size: 1em;
+}
+
+@media (max-width: 768px) {
+    body {
+        width: 80%;
+    }
+}
